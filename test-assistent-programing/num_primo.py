@@ -1,5 +1,12 @@
 def is_prime(n):
-    """Retorna True se n for primo; caso contrário, False."""
+    """Verifica se um número é primo.
+
+    Args:
+        n (int): Número inteiro a ser testado.
+
+    Returns:
+        bool: True se o número for primo; False caso contrário.
+    """
     if n <= 1:
         return False
     if n <= 3:
